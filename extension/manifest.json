@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Blocker",
+  "version": "1.0",
+  "description": "Blocks YouTube and redirects to Google Drive",
+  "permissions": ["declarativeNetRequest", "storage"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

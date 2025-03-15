@@ -1,0 +1,16 @@
+facebook.com
+tiktok.com
+discord.com
+itch.io
+instagram.com
+x.com
+twitter.com
+youtube.com
+
+# this is a comment
+
+# Matches all paths and all subdomains.
+# ||google.com/
+
+# matches all paths and no subdomains.
+# |https://www.google.com/
