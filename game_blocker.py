@@ -21,7 +21,7 @@ def close_games():
         try:
             name = process.info["name"].lower()
             if name in BLOCKED_GAMES:
-                print(f"Closing {name} (PID {process.info['pid']})")
+                # print(f"Closing {name} (PID {process.info['pid']})")
                 os.kill(process.info["pid"], 9)  # Force close process
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
