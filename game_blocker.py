@@ -3,10 +3,17 @@ import time
 import os
 
 BLOCKED_GAMES = [
-    "steam.exe", "epicgameslauncher.exe", "fortnite.exe",
-    "valorant.exe", "csgo.exe", "minecraft.exe",
-    "gta5.exe", "eldenring.exe"
+    "steam.exe",
+    "epicgameslauncher.exe",
+    "fortnite.exe",
+    "valorant.exe",
+    "csgo.exe",
+    "minecraft.exe",
+    "gta5.exe",
+    "eldenring.exe",
+    "EpicWebHelper.exe",
 ]
+
 
 def close_games():
     """Checks running processes and closes any game in the blocked list."""
@@ -19,7 +26,8 @@ def close_games():
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
 
+
 if __name__ == "__main__":
     while True:
         close_games()
-        time.sleep(5)
+        time.sleep(15)
