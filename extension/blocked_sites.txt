@@ -1,11 +1,12 @@
 facebook.com
 tiktok.com
 discord.com
-# itch.io
 instagram.com
 x.com
 twitter.com
-# youtube.com
+|https://youtube.com
+|https://www.youtube.com/
+# |https://itch.io
 
 # this is a comment
 
@@ -57,6 +58,3 @@ channel: noclick
 channel: OperatorDrewski
 channel: JGGames
 channel: Unorthodox Individual
-channel: 
-channel: 
-channel: 
