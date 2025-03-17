@@ -1,11 +1,32 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Blocker",
+  "name": "Performance Optimizer",
   "version": "1.0",
-  "description": "Blocks YouTube and redirects to Google Drive",
-  "permissions": ["declarativeNetRequest", "storage"],
+  "description": "Optimizes websites",
+  "permissions": [
+    "declarativeNetRequest",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
   "host_permissions": ["*://*/*"],
   "background": {
-    "service_worker": "background.js"
-  }
+    "service_worker": "background4.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["youtube-monitor.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js", "blocked_sites.txt"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }

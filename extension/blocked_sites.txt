@@ -1,11 +1,11 @@
 facebook.com
 tiktok.com
 discord.com
-itch.io
+# itch.io
 instagram.com
 x.com
 twitter.com
-youtube.com
+# youtube.com
 
 # this is a comment
 
@@ -14,3 +14,49 @@ youtube.com
 
 # matches all paths and no subdomains.
 # |https://www.google.com/
+
+
+channel: Güldür Güldür
+channel: SomethingAboutScience
+channel: Masked Mediator
+channel: YBJ
+channel: RuskiOperator
+channel: VENOM AMC
+channel: MasterCrab
+channel: Cup of History
+channel: ɴᴇᴠᴇʀ𝟸ʏᴜɴɢ𝟺ᴀᴠɪᴇᴛɴᴀᴍғʟᴀsʜʙᴀᴄᴋ
+channel: RudeJackArt
+channel: Charlemagne Mapping
+channel: jackfrags
+channel: Man Carrying Thing
+channel: Almost Friday TV
+channel: GIRO
+channel: Aquila Interactive
+channel: Нащадок 🇺🇦
+channel: ExtinctZoo 
+channel: Middle Ages
+channel: Amiral Bitikoğlu
+channel: Colonel Cam
+channel: spatnz
+channel: tallyhall
+channel: Alec Steele
+channel: stakuyi
+channel: manofdutch
+channel: kangogh
+channel: Eniqma
+channel: Movieclips
+channel: Magnolia Pictures & Magnet Releasing
+channel: bananadev
+channel: Judo Sloth Gaming
+channel: Triangle Factory
+channel: A World Without
+channel: Fox News
+channel: City Planner Plays
+channel: FerreoPlays
+channel: noclick
+channel: OperatorDrewski
+channel: JGGames
+channel: Unorthodox Individual
+channel: 
+channel: 
+channel: 
